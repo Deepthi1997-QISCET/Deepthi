@@ -8,7 +8,7 @@ class Hello
 	int i,n=2;
 	for(i=0;i<n;i++)
 	{
-		System.out.println("Hello World\n");
+		System.out.println("Hello\n");
 	}
 	}
 }

@@ -6,7 +6,7 @@ class Palindrome
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		  int r,sum=0,temp;    
-          int n=1221;  
+          int n=121;  
           temp=n;    
           while(n>0)
           {    

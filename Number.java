@@ -1,18 +1,25 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class Number
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int num=7;
-		if(num%2==0)
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		if(a%2==0)
 		{
-			System.out.println("num is even");
+			System.out.println("Even");
+		}
+		else if(a%2!=0)
+		{			
+			System.out.println("Odd");
 		}
 		else
 		{
-			System.out.println("num is odd");
+                                    System.out.println("Invalid");
 		}
-	}
+		}
 }

@@ -8,11 +8,11 @@ class Power
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int a,b;
+		int c,d;
 		Scanner s=new Scanner(System.in);
-		a=s.nextInt();
-		b=s.nextInt();
-		int res=(int)Math.pow(a,b);
+		c=s.nextInt();
+		d=s.nextInt();
+		int res=(int)Math.pow(c,d);
 	        System.out.println(res);
 	}
 }

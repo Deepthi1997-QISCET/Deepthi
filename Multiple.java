@@ -14,7 +14,7 @@ class Multiple
 		n=s.nextInt();
 		for(i=1;i<=5;i++)
 		{
-			System.out.print((n*i+" "));
+			System.out.print((n*i)+" ");
 		}
 	}
 }

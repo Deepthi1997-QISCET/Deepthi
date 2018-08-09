@@ -8,26 +8,23 @@ class PrimeInterval
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int low,high;
-		Scanner s=new Scanner(System.in);
-		low=s.nextInt();
-		high=s.nextInt();
-		while(low<high)
+		int i, number, count; 
+		
+		for(number = 1; number <= 10; number++)
 		{
-			boolean b=false;
-			for(int i=2;i<=low/2;i++)
-			{
-				if(low%i==0)
-				{
-					b=true;
-					break;
-				}
-			}
-			if(!b)
-			{
-				System.out.println(low + " ");
-			}
-			low++;
+			count = 0;
+		    for (i = 2; i <= number/2; i++)
+		    {
+		    	if(number % i == 0)
+		    	{
+		    		count++;
+		    		break;
+		    	}
+		    }
+		    if(count == 0 && number != 1 )
+		    {
+		    	System.out.print(number + " ");
+		    }
 		}
 	}
 }

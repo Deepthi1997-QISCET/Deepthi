@@ -12,6 +12,6 @@ class Even
 		             System.out.print(i + " ");
 			}
 		}
-  }
+	}
 		
 }

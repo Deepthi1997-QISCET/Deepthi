@@ -7,7 +7,7 @@ class Arraymin
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int n, min;
+		int n,min;
 		Scanner s = new Scanner(System.in);
 		n = s.nextInt();
 		int a[] = new int[n];

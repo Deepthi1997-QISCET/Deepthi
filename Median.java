@@ -28,15 +28,16 @@ class Median
 			}
 			}
 		}
-	if(n%2==0)
-	{
-		med=(a[n/2]+a[(n/2)+1]/2);
-		System.out.println(med);
-	}
-	else
-	{
+		if(n%2==0)
+		{
+			med=(a[n/2]+a[(n/2)+1]/2);
+			System.out.println(med);
+		}
+		else
+		{
 		med=a[n/2];
 		System.out.println(med);
-	}
+		}
+	
 	}
 }

@@ -17,6 +17,7 @@ class Sorted
 		{
 			for(j=i+1;j<n;j++)
 			{
+		
 				if(a[i]>a[j])
 				{
 					temp=a[i];
@@ -29,6 +30,6 @@ class Sorted
 		{
 			System.out.print(a[i]+" ");
 		}
-		System.out.print(a[n+1]);
+		
 	}
 }

@@ -8,15 +8,15 @@ class Fib
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc = new Scanner(System.in);
-		int ch = sc.nextInt();
-		int a, b, s, n;
-		a = b = 1;
-		for (n = 1; n <= ch; n++)
-			{
-			System.out.print(a+" ");
-			s = a + b;
-			a = b;
-			b = s;
-			}
+		int n = sc.nextInt();
+		int t1=0,t2=1,sum=0;
+		for (int i=0;i<n;i++)
+		{
+			System.out.print(t2+" ");
+			sum=t1+t2;
+			t1=t2;
+			t2=sum;
+		}
+			
 	}
 }

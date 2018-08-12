@@ -25,7 +25,7 @@ class Stringnum
 		}
 		else
 		{
-			System.out.println("no");
+			System.out.println("No");
 		}
     }
 }

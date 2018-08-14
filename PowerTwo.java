@@ -21,20 +21,24 @@ class PowerTwo
 	}
 	private static boolean isPowerOfTwo(int num)
 	{
-		if(num % 2!= 0)
+		if(num<=0)
 		{
 			return false;
+			
 		}
-		else
+		while(num > 1)
 		{
-			for(int i=0;i<=num;i++)
+			if(num % 2 != 0)
 			{
-				if(Math.pow(2,i)==num)
-				{
-					return true;
-				}
+				return false;
+				
 			}
+			num = num / 2;
 		}
-		return false;
+			return true;
 	}
 }
+
+	
+   
+ 

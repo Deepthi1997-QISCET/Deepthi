@@ -16,7 +16,7 @@ class Ideone
 		int i;
 		for(i=0;i<n;i++)
 		{
-		if(Math.pow(i,k)==n)
+		if(Math.pow(k,i)==n)
 		{
 			count=1;
 		}

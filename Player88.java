@@ -7,13 +7,11 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int n,k;
-		float m;
+		int n,k,m;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 		k=sc.nextInt();
 		m=n>>k;
-		String s = String.format ("%.2f", m);
-		System.out.print(s);
+		System.out.print(m);
 	}
 }

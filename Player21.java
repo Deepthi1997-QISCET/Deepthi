@@ -9,24 +9,28 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner sc=new Scanner(System.in);
-		int a1=sc.nextInt();
-		int b1=sc.nextInt();
-		int a2=sc.nextInt();
-		int b2=sc.nextInt();
-		int a3=sc.nextInt();
-		int b3=sc.nextInt();
-		if((a1==a2)&&(a2==a3))
-    {
-		System.out.println("yes");
-    }
-		else if((b1==b2)&&(b2==b3))
-    {
-		System.out.println("yes");
-    }
-		else
-    {
-		System.out.println("no");
-    }
+		Scanner scan=new Scanner(System.in);
+		int x1=scan.nextInt();
+		int y1=scan.nextInt();
+		int x2=scan.nextInt();
+		int y2=scan.nextInt();
+		int x3=scan.nextInt();
+		int y3=scan.nextInt();
+		if(x1==x2&&x1==x3)
+		{
+			System.out.println("yes");
+		}
+          else if(y1==y2&&y1==y3)
+          {
+			System.out.println("yes");
+          }
+          else if(x1==y1&&x2==y2&&x3==y3)
+          {
+	           System.out.println("yes");
+          }
+          else
+          {
+          	System.out.println("no");	
+          }
 	}
 }

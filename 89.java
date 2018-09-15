@@ -11,8 +11,8 @@ class Ideone
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		String s=sc.next();
-		char s1[]=s.toCharArray();
+		String p=sc.next();
+		char s1[]=p.toCharArray();
 		Arrays.sort(s1);
 		System.out.println(s1);
 	}

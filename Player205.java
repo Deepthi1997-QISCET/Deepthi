@@ -15,22 +15,22 @@ class Ideone
 		int i;
 		for(i=0;i<s.length();i++)
 		{
-			char c=s.charAt(i);
-			if(c>='a'&&c<='z')
+			char e=s.charAt(i);
+			if(e>='a'&&e<='z')
 			{
-				int a=c-32;
+				int a=e-32;
 				char d=(char)a;
 				System.out.print(d);
 			}
-			else if(c>='A'&&c<='Z')
+			else if(e>='A'&&e<='Z')
 			{
-				int a=c+32;
+				int a=e+32;
 				char d=(char)a;
 				System.out.print(d);
 			}
 			else
 			{
-				System.out.print(c);
+				System.out.print(e);
 			}
 		}
 	}
